@@ -241,3 +241,17 @@
 .footercontainer i {
     margin-right: 15px;
 }
+
+/*Button*/
+.mybtn{
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    z-index: 99;
+    background-color: transparent;
+    
+  }
+.active{
+    display: block;
+  }
