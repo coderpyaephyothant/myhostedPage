@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+} 
+.header{
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url("images/banner1.jpg");
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+}
+.img2 {
+    width: 200px;
+    float: left;
+}
+
+.login-btn{
+    float: right;
+    background: transparent;
+    color: white;
+}
+
+.header h1{
+    /* padding-top: 180px; */
+    margin-top: 200px;
+    padding-bottom: 0;
+    font-size: 30px;
+}
+
+.input-group{
+    width: 90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: white;
+    margin: auto;
+    padding:0px ; 
+    margin-top: 30px;
+}
+.form-control{
+    border-radius: 30px 0 0 30px;
+    border: 0;
+     margin: 2px; 
+     box-shadow: none;
+
+}
+.input-group-text{
+     width: 100px; 
+     height: 100%;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border: 0;
+    color: white;
+    padding: 0 25px;
+    border-radius: 50px;
+    box-shadow: none;
+}
+
+/*features*/
+
+.featuresParentcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.features{
+    text-align: center;
+}
+.features h1{
+    padding:100px;
+}
+.feacontainer{
+    width: 250px;
+    margin-top: 50px;
+    
+}
+.feature-details{
+    text-align: justify;
+    padding: 10px;
+    margin: 1px;
+}
+.features img{
+    width: 250px;
+}
+.colorclass{
+    color:#ff5722 ;
+}
+
+
+
+.parentcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    /* height: 100vh; */
+    /* padding: 50px; */
+    flex-wrap: wrap;
+    padding: 15px;
+    
+}
+.maincontainer{
+    /* max-width: 200px; */
+    /* background-color: chartreuse; */
+    margin-bottom: 50px;
+    margin-right: 5px;
+    
+    
+}
+.photo{
+    width:  250px;
+}
+/*Garallery*/
+.gal h1{
+    text-align: center;
+    padding: 70px;
+}
+
+/* banner Section*/
+
+.banner{
+    background-image: url('images/banner2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+    padding-top: 10%;
+    /* display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center; */
+    
+}
+.bannerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    flex-wrap: wrap;
+    text-align:center;
+    
+    /* text-align: center  ; */
+    
+    /* margin-top: 80px; */
+}
+.banner-hightLight{
+    padding: 70px 0;
+    color: white;
+    
+}
+
+
+
+.book-btn{
+    float: right;
+    background: transparent;
+    color: white;
+}
+/*userFeedback*/
+.userFeedback{
+    text-align: justify;
+}
+
+.userFeedback h1{
+    padding: 20px;
+}
+
+/*User Reviews*/
+.userFeedback h1{
+    text-align: center;
+    padding: 70px;
+}
+.usercontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+.userdatas{
+    width: 250px;
+    position: relative;
+    margin-top: 50px;
+    
+}
+.uservoices{
+    padding: 15px;
+    padding-bottom: 40px;
+    box-shadow: 0 0 10px 0 grey;
+    
+    
+}
+.userImage{
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    right: 80px;
+    bottom: -35px;
+}
+
+/*footer*/
+
+.footer{
+    padding: 100px 20px;
+    color: #fff;
+    background-image: linear-gradient(#2d557d,#9610fd);
+}
+.footermain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.footercontainer{
+    width: 250px;
+    padding: 15px;
+}
+.footerimage{
+    width: 130px;
+    padding: 15px;
+    
+}
+.footercontainer h6{
+    margin-top: 20px;
+}
+.footer p {
+    font-size: 10px;
+    
+}
+.footer pp {
+    text-align: justify;
+}
+.footercontainer i {
+    margin-right: 15px;
+}
